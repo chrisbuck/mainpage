@@ -1,3 +1,14 @@
+#topDiv {
+    width: 100%;
+}
+#mainDiv {
+    width: 85%;
+    float: left;
+}
+#rightBar {
+    width: 15%;
+    float: left;
+}
 h1 {
 	color: #5882FA;
 }
@@ -5,5 +16,33 @@ h1 {
 	border: 0px;
 }
 .thIndent1 {
-	width:	50px;
+	width:	25px;
+}
+.ulITSkills li {
+    color: #4365a2;
+    background-color: aliceblue;
+    border: 1px solid #5882FA;
+    list-style: none;
+    margin-left: -35px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-right: 2px;
+    padding-bottom: 3px;
+    text-align: center;
+    margin-bottom: 3px;
+    border-radius: 4px;
+}
+.ulBusSkills li {
+    color: darkgoldenrod;
+    background-color: #fff7ed;
+    border: 1px solid #715129;
+    list-style: none;
+    margin-left: -35px;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-right: 2px;
+    padding-bottom: 3px;
+    text-align: center;
+    margin-bottom: 3px;
+    border-radius: 4px;
 }
